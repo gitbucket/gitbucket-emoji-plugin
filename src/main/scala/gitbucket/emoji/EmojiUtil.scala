@@ -899,7 +899,7 @@ object EmojiUtil {
     emojiPattern replaceAllIn(text, e => {
       val emoji = e.group(0) replaceAll(":", "")
       if (!emojis.contains(emoji)) s":$emoji:"
-      else s"""<img src="${context.path}/assets/common/images/emojis/${emoji}.png" alt=":$emoji:" class="emoji" />"""
+      else s"""<img src="${context.path}/plugin-assets/emoji/${emoji}.png" alt=":$emoji:" class="emoji" />"""
     })
 
 }
