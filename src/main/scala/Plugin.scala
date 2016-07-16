@@ -24,8 +24,8 @@ class Plugin extends gitbucket.core.plugin.Plugin {
     }
   )
 
-  override val completionProposalProviders = Seq(
-    new CompletionProposalProvider {
+  override val suggestionProviders = Seq(
+    new SuggestionProvider {
       override val id: String = "emoji"
       override val prefix: String = ":"
       override val suffix: String = ": "

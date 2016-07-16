@@ -3,7 +3,7 @@
 This plug-in provides Emoji support for GitBucket.
 
 - Convert Emoji directives in Markdown or other places as images
-- Completion Emoji directives in the textarea
+- Suggest Emoji directives in the textarea
 
 ![Completion Emoji in textarea](emoji.png)
 
