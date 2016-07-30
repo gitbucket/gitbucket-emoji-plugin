@@ -1,6 +1,6 @@
 val Organization = "gitbucket"
 val ProjectName = "gitbucket-emoji-plugin"
-val ProjectVersion = "4.3.0-SNAPSHOT"
+val ProjectVersion = "4.3.0"
 
 organization := Organization
 name := ProjectName
@@ -13,7 +13,7 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "gitbucket"          % "gitbucket-assembly" % "4.3.0-SNAPSHOT" % "provided",
+  "gitbucket"          % "gitbucket-assembly" % "4.3.0" % "provided",
   "javax.servlet"      % "javax.servlet-api"  % "3.1.0" % "provided"
 )
 
