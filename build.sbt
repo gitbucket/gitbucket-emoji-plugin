@@ -1,6 +1,6 @@
 val Organization = "io.github.gitbucket"
 val ProjectName = "gitbucket-emoji-plugin"
-val ProjectVersion = "4.4.0"
+val ProjectVersion = "4.4.0-SNAPSHOT"
 
 organization := Organization
 name := ProjectName
