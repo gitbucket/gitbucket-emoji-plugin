@@ -1,4 +1,4 @@
-# gitbucket-emoji-plugin
+# gitbucket-emoji-plugin [![Build Status](https://travis-ci.org/gitbucket/gitbucket-emoji-plugin.svg?branch=master)](https://travis-ci.org/gitbucket/gitbucket-emoji-plugin)
 
 This plug-in provides Emoji support for GitBucket.
 
