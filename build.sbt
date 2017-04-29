@@ -5,7 +5,7 @@ val ProjectVersion = "4.5.0-SNAPSHOT"
 organization := Organization
 name := ProjectName
 version := ProjectVersion
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq(
   "io.github.gitbucket" %% "gitbucket"         % "4.11.0" % "provided",
