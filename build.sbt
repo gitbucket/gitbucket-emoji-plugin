@@ -13,6 +13,6 @@ libraryDependencies ++= Seq(
 )
 
 scalacOptions := Seq("-deprecation", "-feature", "-language:postfixOps")
-javacOptions in compile ++= Seq("-target", "7", "-source", "7")
+javacOptions in compile ++= Seq("-target", "8", "-source", "8")
 
 useJCenter := true
