@@ -18,6 +18,6 @@ Download jar file from [the release page](https://github.com/gitbucket/gitbucket
 
 ## Build from source
 
-1. Hit `./sbt.sh package` in the root directory of this repository.
+1. Install sbt and hit `sbt package` in the root directory of this repository.
 2. Copy `target/scala-2.12/gitbucket-emoji-plugin_2.12-x.x.x.jar` into `GITBUCKET_HOME/plugins`.
 3. Restart GitBucket.
