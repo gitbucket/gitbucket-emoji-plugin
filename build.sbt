@@ -1,6 +1,6 @@
 val Organization = "io.github.gitbucket"
 val ProjectName = "gitbucket-emoji-plugin"
-val ProjectVersion = "1.1.0"
+val ProjectVersion = "4.5.0-SNAPSHOT"
 val GitBucketVersion = Option(System.getProperty("gitbucket.version")).getOrElse("4.16.0")
 
 organization := Organization
