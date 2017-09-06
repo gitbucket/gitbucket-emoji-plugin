@@ -3,8 +3,4 @@ language: scala
 jdk:
 - oraclejdk8
 script:
-- sbt test
-addons:
-  apt:
-    packages:
-      - oracle-java8-installer
+- ./build-gitbucket-plugin.sh
