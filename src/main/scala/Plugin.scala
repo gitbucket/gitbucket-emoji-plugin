@@ -33,7 +33,7 @@ class Plugin extends gitbucket.core.plugin.Plugin {
       override val context: Seq[String] = Seq("wiki", "issues")
       override def values(repository: RepositoryInfo): Seq[String] = EmojiUtil.emojis.toSeq
       override def template(implicit context: Context): String =
-        s"""'<img src=\"${context.path}/plugin-assets/emoji/' + value + '.png\" class=\"emoji\"></img>' + value"""
+        s"""'<img src=\"${context.path}/plugin-assets/emoji/' + option.value + '.png\" class=\"emoji\"></img>' + option.value"""
     }
   )
 }
