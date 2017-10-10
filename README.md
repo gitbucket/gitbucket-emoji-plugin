@@ -9,6 +9,7 @@ This plug-in provides Emoji support for GitBucket.
 
 Plugin version | GitBucket version
 :--------------|:--------------------
+4.5.x          | 4.18.x -
 4.4.x          | 4.10.x -
 4.3.x          | 4.3.x - 4.9.x
 

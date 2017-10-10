@@ -14,7 +14,8 @@ class Plugin extends gitbucket.core.plugin.Plugin {
 
   override val versions: List[Version] = List(
     new Version("4.3.0"),
-    new Version("4.4.0")
+    new Version("4.4.0"),
+    new Version("4.5.0")
   )
 
   override val assetsMappings = Seq("/emoji" -> "/gitbucket/emoji/assets")
