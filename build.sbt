@@ -6,7 +6,7 @@ val GitBucketVersion = Option(System.getProperty("gitbucket.version")).getOrElse
 organization := Organization
 name := ProjectName
 version := ProjectVersion
-scalaVersion := "2.12.2"
+scalaVersion := "2.12.4"
 
 libraryDependencies ++= Seq(
   "io.github.gitbucket" %% "gitbucket"         % GitBucketVersion % "provided",
