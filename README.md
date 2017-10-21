@@ -7,6 +7,8 @@ This plug-in provides Emoji support for GitBucket.
 
 ![Completion Emoji in textarea](emoji.png)
 
+See [Emoji cheat sheet for Campfire and GitHub](https://www.webpagefx.com/tools/emoji-cheat-sheet/) to know what emoji are available.
+
 Plugin version | GitBucket version
 :--------------|:--------------------
 4.5.x          | 4.18.x -
