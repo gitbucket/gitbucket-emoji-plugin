@@ -17,7 +17,7 @@ Plugin version | GitBucket version
 
 ## Installation
 
-Download jar file from [the release page](https://github.com/gitbucket/gitbucket-emoji-plugin/releases) and put into `GITBUCKET_HOME/plugins`.
+Download jar file from [plugin registry](https://plugins.gitbucket-community.org/releases/gitbucket-emoji-plugin) and put into `GITBUCKET_HOME/plugins`.
 
 ## Build from source
 
