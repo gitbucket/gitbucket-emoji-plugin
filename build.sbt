@@ -1,5 +1,5 @@
 organization := "io.github.gitbucket"
 name := "gitbucket-emoji-plugin"
-version := "4.5.1"
+version := "4.5.2"
 scalaVersion := "2.12.4"
-gitbucketVersion := "4.25.0"
+gitbucketVersion := "4.31.2"
