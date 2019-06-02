@@ -11,13 +11,14 @@ See [Emoji cheat sheet for Campfire and GitHub](https://www.webpagefx.com/tools/
 
 Plugin version | GitBucket version
 :--------------|:--------------------
+4.6.x          | 4.23.x -
 4.5.x          | 4.18.x -
 4.4.x          | 4.10.x -
 4.3.x          | 4.3.x - 4.9.x
 
 ## Installation
 
-Download jar file from [plugin registry](https://plugins.gitbucket-community.org/releases/gitbucket-emoji-plugin) and put into `GITBUCKET_HOME/plugins`.
+Download jar file from [Releases page](https://github.com/gitbucket/gitbucket-emoji-plugin/releases) and put into `GITBUCKET_HOME/plugins`.
 
 ## Build from source
 
