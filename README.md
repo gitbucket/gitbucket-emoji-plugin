@@ -1,4 +1,4 @@
-# gitbucket-emoji-plugin [![Build Status](https://travis-ci.org/gitbucket/gitbucket-emoji-plugin.svg?branch=master)](https://travis-ci.org/gitbucket/gitbucket-emoji-plugin) [![GitBucket Plugins](https://plugins.gitbucket-community.org/badge/gitbucket-emoji-plugin/latest.svg)](https://plugins.gitbucket-community.org/repos/gitbucket-emoji-plugin)
+# gitbucket-emoji-plugin [![Build Status](https://travis-ci.org/gitbucket/gitbucket-emoji-plugin.svg?branch=master)](https://travis-ci.org/gitbucket/gitbucket-emoji-plugin)
 
 This plug-in provides Emoji support for GitBucket.
 
@@ -22,4 +22,4 @@ Download jar file from [Releases page](https://github.com/gitbucket/gitbucket-em
 
 ## Build from source
 
-Run `sbt assembly` and copy generated `/target/scala-2.12/gitbucket-emoji-plugin-assembply-x.x.x.jar` to `~/.gitbucket/plugins/` (If the directory does not exist, create it by hand before copying the jar), or just run `sbt install`.
+Run `sbt assembly` and copy generated `/target/scala-2.13/gitbucket-emoji-plugin-x.x.x.jar` to `~/.gitbucket/plugins/` (If the directory does not exist, create it by hand before copying the jar), or just run `sbt install`.
