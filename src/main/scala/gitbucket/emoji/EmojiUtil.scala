@@ -896,8 +896,8 @@ object EmojiUtil {
   private val emojiPattern = """\:[a-z0-9_\-\+]+\:""".r
 
   def convertEmojis(text: String)(implicit context: gitbucket.core.controller.Context): String =
-    emojiPattern replaceAllIn(text, e => {
-      val emoji = e.group(0) replaceAll(":", "")
+    emojiPattern.replaceAllIn(text, e => {
+      val emoji = e.group(0).replaceAll(":", "")
       if (!emojis.contains(emoji)) s":$emoji:"
       else s"""<img src="${context.baseUrl}/plugin-assets/emoji/${emoji}.png" alt=":$emoji:" class="emoji" />"""
     })
