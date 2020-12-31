@@ -6,8 +6,8 @@ package gitbucket.emoji
 object EmojiUtil {
 
   val emojis = Set(
-    "-1",
     "+1",
+    "-1",
     "100",
     "1234",
     "8ball",
@@ -584,8 +584,8 @@ object EmojiUtil {
     "person_with_pouting_face",
     "phone",
     "pig",
-    "pig_nose",
     "pig2",
+    "pig_nose",
     "pill",
     "pineapple",
     "pisces",
