@@ -23,3 +23,5 @@ Download jar file from [Releases page](https://github.com/gitbucket/gitbucket-em
 ## Build from source
 
 Run `sbt assembly` and copy generated `/target/scala-2.13/gitbucket-emoji-plugin-x.x.x.jar` to `~/.gitbucket/plugins/` (If the directory does not exist, create it by hand before copying the jar), or just run `sbt install`.
+
+Run `sbt downloadImages` to update images. It will download the latest images to `src/main/resources/gitbucket/emoji/assets` and update [EmojiUtil.scala](https://github.com/gitbucket/gitbucket-emoji-plugin/blob/master/src/main/scala/gitbucket/emoji/EmojiUtil.scala).
