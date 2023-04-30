@@ -9,12 +9,12 @@ This plug-in provides Emoji support for GitBucket.
 
 See [Emoji cheat sheet for Campfire and GitHub](https://www.webpagefx.com/tools/emoji-cheat-sheet/) to know what emoji are available.
 
-Plugin version | GitBucket version
-:--------------|:--------------------
-4.6.x          | 4.23.x -
-4.5.x          | 4.18.x -
-4.4.x          | 4.10.x -
-4.3.x          | 4.3.x - 4.9.x
+| Plugin version | GitBucket version |
+|:---------------|:------------------|
+| 4.6.x          | 4.23.x -          |
+| 4.5.x          | 4.18.x -          |
+| 4.4.x          | 4.10.x -          |
+| 4.3.x          | 4.3.x - 4.9.x     |
 
 ## Installation
 
