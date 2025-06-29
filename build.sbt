@@ -2,7 +2,7 @@ organization := "io.github.gitbucket"
 name := "gitbucket-emoji-plugin"
 version := "4.6.0"
 scalaVersion := "2.13.16"
-gitbucketVersion := "4.42.1"
+gitbucketVersion := "4.43.0"
 
 val donwloadImagesKey = TaskKey[Unit]("downloadImages")
 
