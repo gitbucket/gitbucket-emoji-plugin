@@ -1,4 +1,4 @@
-# gitbucket-emoji-plugin [![build](https://github.com/gitbucket/gitbucket-emoji-plugin/workflows/build/badge.svg?branch=master)](https://github.com/gitbucket/gitbucket-emoji-plugin/actions?query=workflow%3Abuild+branch%3Amaster)
+# gitbucket-emoji-plugin [![build](https://github.com/gitbucket/gitbucket-emoji-plugin/actions/workflows/build.yml/badge.svg)](https://github.com/gitbucket/gitbucket-emoji-plugin/actions/workflows/build.yml)
 
 This plug-in provides Emoji support for GitBucket.
 
